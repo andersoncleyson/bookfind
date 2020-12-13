@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gudea', sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header .logo{
+    position: relative;
+}
+
+header nav{
+    position: relative;
+    display: flex;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #6159E6;
+    margin-left: 40px;
+}
+
+header nav ul li a .sobre{
+    margin-right: 15px;
+}
+
+header nav ul li a:hover{
+    color: #5634FF;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 0px;
+}
+
+section .contentBx{
+    position: relative;
+    max-width: 700px;
+    z-index: 1000;
+    padding: 0 130px;
+}
+
+section .contentBx h2{
+    font-size: 50px;
+    color: #6159e6;
+}
+
+section .contentBx p{
+    font-size: 18px;
+    color: #3A3768;
+    margin-top: .5rem;
+}
+
+
+
+section .button{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #6159e6;
+    border: 0;
+    border-radius: 3px;
+
+    margin-top: 2rem;
+}
+
+section  .button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+}
+
+section .button:hover{
+    background-color: #3A3768;
+    transition: .5s;
+    
+}
+
+section .imgBox img{
+    max-width: 900px;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    padding: 0 130px
+}
+
+.area2{
+    display: flex;
+    background-color: #6159E6;
+    padding: 33vh 150px;
+}
+
+.imgBox2 img{
+    max-width: 1000px;
+    width: 650px;
+    z-index: 1;
+    position: relative;
+}
+
+.contentBx2{
+    text-align: right;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.area2 .contentBx2 h2 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.area2 .contentBx2 p {
+    color: #fff;
+    font-size: 28px;
+    
+}
+
+footer{
+    background-color: #2F2E41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+
+footer p{
+    color: #6159E6;
+}
+
+footer div .github{
+    margin-right: 10px;
+}
+
+
+@media (max-width: 994px){
+    section{
+        flex-direction: column;
+        padding-top: 150px;
+        height: auto;
+    }
+
+    section .contentBx{
+        max-width: 100%;
+    }
+
+    section .contentBx h2{
+        font-size: 40px;
+    }
+
+    section .imgBox img{
+        margin-top: 0;
+    }
+
+    section .search .input{
+        width: 305px;
+        font-size: 17px;
+    }
+
+    section .area2{
+        flex-direction: column;
+        padding-top: 150px;
+        height: auto;
+    }
+
+    section .contentBx2{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    section .contentBx2 h2{
+        font-size: 40px;
+    }
+
+    section .imgBox2 img{
+        margin-top: 0;
+        width: 550px;
+        
+    }
+
+}
+
+@media (max-width: 767px){
+    header{
+        padding: 20px 50px;
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section{
+        flex-direction: column;
+        padding: 150px 20px 50px;
+        height: auto;
+    }
+
+    section .contentBx h2{
+        font-size: 30px;
+    }
+
+    section .contentBx p{
+        font-size: 16px;
+    }
+
+    section .search .input{
+        width: 250px;
+        font-size: 17px;
+    }
+
+    section .contentBx2{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    section .contentBx2 h2{
+        font-size: 40px;
+    }
+
+    section .imgBox2 img{
+        margin-top: 0;
+        width: 500px;
+        
+    }
+
+    footer{
+        
+        padding: 50px 0px;
+        
+    }
+
+    footer img{
+        width: 150px;
+    }
+
+    footer .github img{
+        width: 30px;
+        margin-top: 13px;
+    }
+
+    footer .linkedin img{
+        width: 30px;
+    }
+
+    footer p{
+        font-size: 12px;
+        margin-top: -8px;
+    }
+}
+
+
+@media (max-width: 414px){
+    header{
+        padding: 5px 15px;
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    section{
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        margin-top: 6rem;
+        margin-left: -95px;
+        
+    }
+
+    section .contentBx h2{
+        font-size: 25px;
+       
+        width: 250px;
+    }
+
+    section .contentBx p{
+        font-size: 16px;
+        width: 230px;
+    }
+
+    section .search .input{
+        width: 200px;
+        font-size: 17px;
+    }
+
+    section .imgBox img{
+        margin-top: 0;
+        width: 650px;
+        margin-left: 100px;
+    }
+
+    section .search .button{
+        height: 40px;
+        width: 75px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #6159e6;
+        border: 0;
+        border-radius: 3px;
+    }
+
+    section .contentBx2{
+        max-width: 100%;
+        text-align: center;
+        margin-left: 100px;
+        
+    }
+
+    section .contentBx2 h2{
+        font-size: 40px;
+    }
+
+    section .imgBox2 img{
+        margin-top: 0;
+        width: 300px;
+        margin-left: 90px;
+        
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 50px 0px;
+        
+    }
+
+    footer img{
+        width: 150px;
+    }
+
+    footer .github img{
+        width: 30px;
+        margin-top: 13px;
+    }
+
+    footer .linkedin img{
+        width: 30px;
+    }
+
+    footer p{
+        font-size: 12px;
+        margin-top: -8px;
+    }
+    
+}

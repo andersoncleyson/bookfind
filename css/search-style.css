@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gudea', sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header .logo{
+    position: relative;
+}
+
+header nav{
+    position: relative;
+    display: flex;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #6159E6;
+    margin-left: 40px;
+}
+
+header nav ul li a .sobre{
+    margin-right: 15px;
+}
+
+header nav ul li a:hover{
+    color: #5634FF;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 100px 220px;
+}
+
+section .input{
+    position: relative;
+    width: 500px;
+    height: 40px;
+    border-color: #6C63FF;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10rem;
+   
+}
+
+section .button{
+    font-size: 20px;
+    color: #fff;
+    background-color: #6c63ff;
+    border: 0;
+    padding: 7px;
+    border-radius: 2px;
+    transition: .6s;
+    margin-top: .5rem;
+    margin-left: 12rem;
+}
+
+section .button:hover{
+    background-color: #3A3768;
+    transition: .6s;
+}
+
+
+    #result{
+    background-color: #6159e6;
+    max-width: 800px;
+    margin-top: 2rem;
+    padding: 10px;
+    flex-direction: column;
+    display: initial;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+
+}
+
+    #result button{
+        background-color: #fff;
+        padding: 10px;
+        font-size: 18px;
+        font-family: 'Gudea';
+        border: 0;
+        color: #6159e6;
+        margin: 0px 10px 50px 0px
+    }
+
+    #result img{
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    #result button:hover{
+        background-color: #3A3768;
+        color: #fff;
+        transition: .5s;
+    }
+
+section .card .info{
+    padding: 0px 0px 0px 20px;
+    color: #fff;
+}
+
+section .card .info .links {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+
+
+section .card .info .links #buy{
+    background-color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    border: 0;
+    color: #6C63FF;
+    transition: .5s;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+section .card .info .links #read{
+    background-color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 2px;
+    color: #6C63FF;
+    transition: .5s;
+    padding: 7px;
+    margin-left: 360px;
+
+}
+
+section .card .info .links #buy:hover{
+    background-color: #3F3D56;
+    color: #fff;
+    transition: .5s;
+
+}
+
+section .card .info .links #leia:hover{
+    background-color: #3F3D56;
+    color: #fff;
+    transition: .5s;
+
+}
+
+
+section .card .info .links a{
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+section .card .info p{
+    margin-top: 4px;
+}
+
+
+section .card .img img{
+    max-width: 300px;
+    position: relative;
+    width: 250px;
+    margin-top: -6rem;
+    padding: 2px;
+
+}
+
+footer{
+    background-color: #2F2E41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+
+footer p{
+    color: #6159E6;
+}
+
+footer div .github{
+    margin-right: 10px;
+}
+
+@media (max-width: 375px){
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+
+    section .input{
+        position: relative;
+        width: 320px;
+        height: 40px;
+        font-size: 15px;
+        
+       
+    }
+
+    section .card{
+        background-color: #6159e6;
+        max-width: 700px;
+        width: 600px;
+        padding: 5px;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+    
+    }
+
+    section .card .info{
+        padding: 0px;
+        color: #fff;
+        max-width: 370px;
+        text-align: center;
+    }
+
+    section .card .info p{
+        margin-top: 4px;
+    }
+    
+    
+    section .card .img img{
+        max-width: 300px;
+        position: relative;
+        width: 200px;
+        margin-top: 3rem;
+        padding: 1px;
+    
+    }
+
+    section .card .info .links {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2rem;
+        
+    }
+
+    section .card .info .links .leia{
+        background-color: #fff;
+        padding: 5px;
+        font-size: 18px;
+        border: 0;
+        border-radius: 2px;
+        color: #6C63FF;
+        transition: .5s;
+        padding: 7px;
+        margin-left: 0px;
+    
+    }
+
+
+    footer{
+        background-color: #2F2E41;
+       
+        flex-direction: column;
+        
+    }
+    
+    footer p{
+        color: #6159E6;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    footer a img .net{
+        width: 10px;
+    }
+    
+    footer div .github{
+        margin-right: 10px;
+    }
+
+    #result{
+        background-color: #6159e6;
+        max-width: 370px;
+        margin-top: 2rem;
+        padding: 10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        align-items: center;
+    
+    }
+
+    #result button{
+        
+        margin: 0px 10px 50px 0px
+    }
+}
+
+@media (max-width: 414px){
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+
+    section .input{
+        position: relative;
+        width: 320px;
+        height: 40px;
+        font-size: 15px;
+        
+       
+    }
+
+    section .card{
+        background-color: #6159e6;
+        max-width: 700px;
+        width: 600px;
+        padding: 5px;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+    
+    }
+
+    section .card .info{
+        padding: 0px;
+        color: #fff;
+        max-width: 370px;
+        text-align: center;
+    }
+
+    section .card .info p{
+        margin-top: 4px;
+    }
+    
+    
+    section .card .img img{
+        max-width: 300px;
+        position: relative;
+        width: 200px;
+        margin-top: 3rem;
+        padding: 1px;
+    
+    }
+
+    section .card .info .links {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2rem;
+        
+    }
+
+    section .card .info .links .leia{
+        background-color: #fff;
+        padding: 5px;
+        font-size: 18px;
+        border: 0;
+        border-radius: 2px;
+        color: #6C63FF;
+        transition: .5s;
+        padding: 7px;
+        margin-left: 0px;
+    
+    }
+
+    #result{
+        background-color: #6159e6;
+        max-width: 407px;
+        margin-top: 2rem;
+        padding: 10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        align-items: center;
+    
+    }
+
+    #result button{
+        
+        margin: 0px 10px 50px 0px
+    }
+
+
+    footer{
+        background-color: #2F2E41;
+       
+        flex-direction: column;
+        
+    }
+    
+    footer p{
+        color: #6159E6;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    footer a img .net{
+        width: 10px;
+    }
+    
+    footer div .github{
+        margin-right: 10px;
+    }
+}
