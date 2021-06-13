@@ -1,0 +1,28 @@
+.footerContainer {
+    background: var(--purple-dark);
+    height: 6.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+
+    p {
+        
+        padding: 0.25rem 0 0.25rem 2rem;
+        font-weight: 300;
+        color: var(--purple);
+        margin-left: auto;
+    }
+
+    span {
+        margin-left: auto;
+        text-transform: capitalize;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 0.25rem 0 0.25rem 2rem;
+        color: var(--purple)
+    }
+}
