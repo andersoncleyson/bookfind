@@ -9,8 +9,8 @@ export default function Header(){
             <p>Conhecimento é tudo</p>
 
             <span>
-                <a href="">Sobre</a>
-                <a href="">Contato</a>
+                <a href="https://github.com/andersoncleyson">Sobre</a>
+                <a href="https://www.linkedin.com/in/anderson-cleyson/">Contato</a>
             </span>
             
         </header>
