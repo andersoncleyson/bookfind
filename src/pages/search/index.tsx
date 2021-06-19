@@ -13,12 +13,9 @@ export default function Search(){
             </div>
 
             <div className={styles.image}> 
-                <Image 
-                    width={700} 
-                    height={500} 
-                    src={'/image-search.svg'}
-                    objectFit="cover"
-                />
+                
+                <img src='/image-search.svg' />
+                    
             </div>
             
             

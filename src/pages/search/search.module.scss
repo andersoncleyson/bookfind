@@ -51,7 +51,13 @@
     .image {
         display: flex;
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
+        width: 600;
+        height: 600;
+
+        img {
+            width: 700px;
+        }
     }
     
 }
