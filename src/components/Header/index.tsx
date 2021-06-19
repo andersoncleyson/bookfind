@@ -1,10 +1,14 @@
 import styles from './styles.module.scss';
+import Link from 'next/link';
 
 
 export default function Header(){
     return (
         <header className={styles.headerContainer}>
-            <img src="/logo.svg" alt="Bookfind" />
+            <Link href={'/'}>
+                <img src="/logo.svg" alt="Bookfind" />
+            </Link>
+            
 
             <p>Conhecimento é tudo</p>
 

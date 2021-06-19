@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import Link from 'next/link'
 
 
 export default function Body(){
@@ -12,9 +13,12 @@ export default function Body(){
                     pesquisar pelo nome do autor ou da editora
                 </p>
 
-                <button type="button" className={styles.search}>
-                    Procurar
-                </button>
+                <Link href={'/search/search'}>
+                    <button type="button" className={styles.search}>
+                        Procurar
+                    </button>
+                </Link>
+                
             </div>
 
             <div className={styles.image1}>

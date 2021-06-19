@@ -23,6 +23,12 @@
     a {
         text-decoration: none;
         padding: 0.25rem 0 0.25rem 2rem;
-        color: var(--purple)
+        color: var(--purple);
+
+        transition: filter(1.2s);
+    }
+
+    a:hover{
+        filter: brightness(1.2)
     }
 }

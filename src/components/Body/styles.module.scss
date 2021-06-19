@@ -1,12 +1,12 @@
 .pageInit {
-    height: 100vh;
+    height: calc(100vh - 6.5rem);
 
 
     display: flex;
     align-items: center;
 
     padding: 2rem 4rem;
-    justify-content: space-between;
+    justify-content: center;
 
     .text1{
         width: 60vh;
@@ -36,11 +36,12 @@
             margin-top: 1rem;
             width: 10rem;
             font-size: 1.5rem;
+
+            transition: filter 1.2s;
         }
 
         button:hover{
-            background: var(--purple-dark);
-            transition: 0.5s;
+            filter: brightness(1.3)
         }
 
         
