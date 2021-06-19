@@ -13,7 +13,7 @@ export default function Body(){
                     pesquisar pelo nome do autor ou da editora
                 </p>
 
-                <Link href={'/search/search'}>
+                <Link href={'/search'}>
                     <button type="button" className={styles.search}>
                         Procurar
                     </button>

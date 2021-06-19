@@ -61,10 +61,14 @@
 
 .pageInit2{
     background: var(--purple);
-    height: 100vh;
+    height: calc(100vh - 6.5rem);
+
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
+    padding: 2rem 4rem;
+    justify-content: center;
 
     .image2 {
         margin-left: 5rem;
@@ -99,14 +103,14 @@
 }
 
 .pageInit3 {
-    height: 100vh;
+    height: calc(100vh - 6.5rem);
 
 
     display: flex;
     align-items: center;
 
     padding: 2rem 4rem;
-    justify-content: space-between;
+    justify-content: center;
 
     .text3{
         width: 60vh;
@@ -162,10 +166,14 @@
 
 .pageInit4{
     background: var(--purple);
-    height: 100vh;
+    height: calc(100vh - 6.5rem);
+
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
+    padding: 2rem 4rem;
+    justify-content: center;
 
     .image4 {
         margin-left: 5rem;
