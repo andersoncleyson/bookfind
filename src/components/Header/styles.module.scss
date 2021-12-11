@@ -31,3 +31,40 @@
         filter: brightness(1.3);
     }
 }
+
+@media (max-width: 412px){
+    .headerContainer {
+        background: var(--purple-dark);
+        height: 5.5rem;
+        width: calc(75vh - 1rem);
+    
+        display: flex;
+        align-items: center;
+    
+        padding: 2rem 3rem;
+    
+        p {
+            margin-left: 2rem;
+            padding: 0.25rem 0 0.25rem 2rem;
+            border-left: 1px solid var(--purple);
+            color: var(--white)
+        }
+    
+        span {
+            margin-left: auto;
+            text-transform: capitalize;
+        }
+    
+        a {
+            text-decoration: none;
+            padding: 0.25rem 0 0.25rem 2rem;
+            color: var(--purple);
+    
+            transition: filter 1.2s;
+        }
+    
+        a:hover {
+            filter: brightness(1.3);
+        }
+    }
+}

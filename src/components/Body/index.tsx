@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
-import Link from 'next/link'
+import styles_mobile from './styles-mobile.module.scss';
+import Link from 'next/link';
 
 
 export default function Body(){

@@ -32,3 +32,46 @@
         filter: brightness(1.2)
     }
 }
+
+@media (max-width: 412px){
+    .footerContainer {
+        background: var(--purple-dark);
+        height: 14rem;
+        width: calc(75vh - 0.7rem);
+
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+        p {
+            
+            padding: 0.5rem;
+            font-weight: 300;
+            color: var(--purple);
+            margin-right: 10.4rem;
+            
+        }
+    
+        span {
+            
+            text-transform: capitalize;
+            padding: 1rem;
+            margin-right: 13rem;
+
+        }
+    
+        a {
+            text-decoration: none;
+            
+            color: var(--purple);
+            margin-right: 1rem;
+            
+            transition: filter(1.2s);
+        }
+    
+        a:hover{
+            filter: brightness(1.2)
+        }
+    }
+}
