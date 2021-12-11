@@ -1,5 +1,4 @@
 import styles from './styles.module.scss';
-import styles_mobile from './styles-mobile.module.scss';
 import Link from 'next/link';
 
 
